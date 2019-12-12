@@ -8,6 +8,8 @@
 前后端分离后台
 > https://github.com/elunez/eladmin
 
+> https://github.com/loveRandy/vue-cli3.0-vueadmin.git  react 和 vue 都有项目
+
 
 ### 自己npm 包
 * https://www.npmjs.com/package/czz-format-date
