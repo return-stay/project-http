@@ -1,5 +1,6 @@
 # project-http
 网上优秀项目连接
+* https://github.com/PanJiaChen/vue-element-admin.git
 * https://gitee.com/old-peanut/wechat_applet__open_source
 * https://gitee.com/renrenio/renren-fast-vue.git
 * https://github.com/iview/iview-admin.git
