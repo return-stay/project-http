@@ -3,7 +3,7 @@
 * https://gitee.com/old-peanut/wechat_applet__open_source
 * https://gitee.com/renrenio/renren-fast-vue.git
 * https://github.com/iview/iview-admin.git
-
+* https://github.com/wdlhao/vue2-element-touzi-admin.git
 
 前后端分离后台
 > https://github.com/elunez/eladmin
