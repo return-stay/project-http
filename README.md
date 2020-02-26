@@ -10,6 +10,7 @@
 > https://github.com/elunez/eladmin
 
 > https://github.com/loveRandy/vue-cli3.0-vueadmin.git  react 和 vue 都有项目
+> https://github.com/loveRandy/react-admin  react 项目
 
 > https://github.com/z-9527/react-admin-master.git react 项目 react+antd
 
