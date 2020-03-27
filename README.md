@@ -5,6 +5,9 @@
 * https://gitee.com/renrenio/renren-fast-vue.git
 * https://github.com/iview/iview-admin.git
 * https://github.com/wdlhao/vue2-element-touzi-admin.git
+* https://github.com/macrozheng/mall-admin-web.git
+
+
 
 前后端分离后台
 > https://github.com/elunez/eladmin
