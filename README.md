@@ -19,3 +19,7 @@
 
 ### 自己npm 包
 * https://www.npmjs.com/package/czz-format-date
+
+
+### 好用的插件
+* 基于Vue的图片剪裁插件  https://github.com/xyxiao001/vue-cropper.git
