@@ -7,7 +7,7 @@
 * https://github.com/wdlhao/vue2-element-touzi-admin.git
 * https://github.com/macrozheng/mall-admin-web.git
 
-
+* https://github.com/liuguanhua/react-antd-admin.git
 
 前后端分离后台
 > https://github.com/elunez/eladmin
