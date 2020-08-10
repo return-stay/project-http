@@ -19,6 +19,7 @@
 
 > https://github.com/biaochenxuying/blog-react-admin.git 管理后台
 
+> https://github.com/zuiidea/antd-admin.git. dva 后台管理系统
 
 ### 自己npm 包
 * https://www.npmjs.com/package/czz-format-date
