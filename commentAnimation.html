@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>测试动画</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    .add-btn {
+      width: 200px;
+      height: 30px;
+      margin: 10px auto 0;
+    }
+    .transition-box {
+      margin: 100px auto 0;
+      width: 400px;
+      height: 700px;
+      border: 1px solid #000;
+      position: relative;
+      padding-top: 700px;
+      box-sizing: border-box;
+      overflow: hidden;
+    }
+    .transition-li {
+      height: 40px;
+      width: 100%;
+      background-color: rgba(0, 0, 0, .4);
+      color: #fff;
+      margin: 2px 0;
+      /* position: absolute; */
+      animation: mymove 15s linear;
+    }
+
+    @keyframes mymove{
+      0% {
+        transform: translateY(0);
+      }
+      70% {
+        opacity: 1;
+        transform: translateY(-490px);
+      }
+      100% {
+        transform: translateY(-700px);
+        opacity: 0;
+        overflow: hidden;
+      } 
+    }
+  </style>
+</head>
+<body>
+  <div class="transition-box">
+    <ul class="transition-ul"></ul>
+  </div>
+  <button class="add-btn">添加评论</button>
+
+  <script>
+    let dom = document.getElementsByClassName('transition-ul')[0]
+    let btn = document.getElementsByClassName('add-btn')[0]
+    let i = new Date().getTime() //随机数
+    let domMap = new Map() //添加map
+    let _lastTime = null
+
+    class CommentAnimation {
+      constructor(el) {
+        btn.addEventListener('click', () => {
+          this.throttle(()=> {
+            i = i + 1
+            this.addElement()
+          }, 1000)
+        })
+      }
+      // 添加元素
+      addElement() {
+        let Li = document.createElement('li')
+        let classUnique = 'transition-li' + i
+        Li.setAttribute('class','transition-li ' + classUnique);
+        let bool = false
+        if(i%2) {
+          bool = true
+        }else {
+          bool = false
+        }
+        let h = bool ? 40 : 100;
+        let styleStr = `height: ${h}px;`
+        Li.setAttribute('style',styleStr);
+        Li.innerText = '添加的数据' + i
+        dom.appendChild(Li)
+
+        domMap[classUnique] = Li
+
+        setTimeout(() => {
+          this.removeElement(classUnique)
+        }, 15000);
+      } 
+      // 删除子元素
+      removeElement(el) {
+        let domEle = document.getElementsByClassName(el)[0]
+        dom.removeChild(domEle)
+      }
+      // 节流
+      throttle(fn, gapTime) {
+        if (gapTime == null || gapTime == undefined) {
+          gapTime = 1000
+        }
+        let _nowTime = + new Date()
+        if (_nowTime - _lastTime > gapTime || !_lastTime) {
+          fn()
+          _lastTime = _nowTime
+        }
+      }
+    }
+    
+    window.addEventListener('DOMContentLoaded', function() {
+      new CommentAnimation()
+    })
+
+  </script>
+  
+</body>
+</html>
