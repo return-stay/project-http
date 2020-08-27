@@ -29,3 +29,7 @@
 * 基于Vue的图片剪裁插件  https://github.com/xyxiao001/vue-cropper.git
 
 * CSS 8种让人眼前一亮的hover效果眼前一亮的HOVER效果 https://mp.weixin.qq.com/s/jVgvphBIIuZj1b8x0BfjZw
+* 36个工作中常用的JavaScript函数片段 https://mp.weixin.qq.com/s/FQfmCoU7O8Cq1g7dz0Ywjw
+* Vue+Element前端导入导出Excel https://mp.weixin.qq.com/s/rjjgF_J0Bj4FxlgwzqBK5w
+* 颜值即正义！这几个库颠覆你对数据交互的想象！ https://mp.weixin.qq.com/s/r5oroWg18vILeyEbef_fNw
+* 炫技，从 12.67s 到 1.06s 的网站性能优化实战 https://mp.weixin.qq.com/s/agD97EhQZF3W44YghyssSQ
