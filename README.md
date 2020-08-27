@@ -27,3 +27,5 @@
 
 ### 好用的插件
 * 基于Vue的图片剪裁插件  https://github.com/xyxiao001/vue-cropper.git
+
+* CSS 8种让人眼前一亮的hover效果眼前一亮的HOVER效果 https://mp.weixin.qq.com/s/jVgvphBIIuZj1b8x0BfjZw
