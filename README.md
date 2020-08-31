@@ -9,6 +9,8 @@
 
 * https://github.com/liuguanhua/react-antd-admin.git
 
+* https://github.com/sxfad/react-admin.git react 后台项目
+
 前后端分离后台
 > https://github.com/elunez/eladmin
 
